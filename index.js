@@ -98,7 +98,7 @@ module.exports = (app) => {
   /** HiringManager Reminder **/
   app.get('/hiring-manager-group-reminder-conversations/:id/params', hiringManagerGroupReminderController.getParams)
 
-  app.post('/hiring-manager-group-reminder-conversations/finish', hiringManagerGroupReminderController.finish)
+  app.post('/hiring-manager-group-reminder-conversations/end', hiringManagerGroupReminderController.finish)
 
   app.get('/hiring-manager-group-reminder-conversations/:id/file-link', hiringManagerGroupReminderController.getFileLink)
 
