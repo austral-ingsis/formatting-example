@@ -1,4 +1,4 @@
-# Formatting Example
+# Formatting Example 2
 
 This repository is intended to show the difference between 'sintactic' changes and 'semantic' changes.
 In the class you should use:
